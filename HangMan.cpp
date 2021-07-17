@@ -37,9 +37,9 @@ HangMan::HangMan()
 	//SetConsoleTitle("Hang Man Game");
 
 	string line;
-	ifstream myfile("hangmanWelcome.txt");
-	cout << "WELCOME TO..." << endl;
-	if (myfile.is_open())
+	//ifstream myfile("hangmanWelcome.txt");
+	cout << "WELCOME TO HANGMAN " << endl;
+	/*if (myfile.is_open())
 	{
 		while (getline(myfile, line))
 		{
@@ -53,7 +53,7 @@ HangMan::HangMan()
 		clearScreen();     // clear screen
 	}
 	else
-		cout << "Unable to open file" << endl;
+		cout << "Unable to open file" << endl;*/
 }
 
 void HangMan::loadingMessage()
